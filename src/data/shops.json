@@ -1,0 +1,3504 @@
+[
+  {
+    "name": "General Store",
+    "sections": [
+      {
+        "name": "Adventuring Gear",
+        "items": [
+          {
+            "name": "Abacus",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Barrel",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            },
+            "weight": 70
+          },
+          {
+            "name": "Blanket",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "sp"
+            },
+            "weight": 3
+          },
+          {
+            "name": "Bottle, glass",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Bucket",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "cp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Candle",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "cp"
+            }
+          },
+          {
+            "name": "Chest",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 25
+          },
+          {
+            "name": "Clothes, Common",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "sp"
+            },
+            "weight": 3
+          },
+          {
+            "name": "Clothes, Fine",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 15,
+              "unit": "gp"
+            },
+            "weight": 6
+          },
+          {
+            "name": "Flask or Tankard",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "cp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Ink (1 ounce bottle)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Ink Pen",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "cp"
+            }
+          },
+          {
+            "name": "Journal",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 7,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Jug or Pitcher",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "cp"
+            },
+            "weight": 4
+          },
+          {
+            "name": "Ladder (10-foot)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "sp"
+            },
+            "weight": 25
+          },
+          {
+            "name": "Lamp",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "sp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Lantern, Hooded",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Lock",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Mess Kit",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "sp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Mirror, Steel",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 0.5
+          },
+          {
+            "name": "Paper (one sheet)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Parchment (one sheet)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Pick, Miner's",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            },
+            "weight": 10
+          },
+          {
+            "name": "Pot, Iron",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            },
+            "weight": 10
+          },
+          {
+            "name": "Pouch",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "sp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Rope, Hempen (50 ft)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            },
+            "weight": 10
+          },
+          {
+            "name": "Rope, Silk (50 ft)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 5
+          },
+          {
+            "name": "Sack",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "cp"
+            },
+            "weight": 0.5
+          },
+          {
+            "name": "Scale, Merchant's",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 3
+          },
+          {
+            "name": "Shovel",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            },
+            "weight": 5
+          },
+          {
+            "name": "Signet Ring",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Soap",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "cp"
+            }
+          },
+          {
+            "name": "Vial",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Tools",
+        "items": [
+          {
+            "name": "Carpenter's Tools",
+            "category": "Artisan's Tools",
+            "cost": {
+              "quantity": 8,
+              "unit": "gp"
+            },
+            "weight": 6
+          },
+          {
+            "name": "Cobbler's Tools",
+            "category": "Artisan's Tools",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 5
+          },
+          {
+            "name": "Cook's Utensils",
+            "category": " Artisan's Tools",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            },
+            "weight": 8
+          },
+          {
+            "name": "Glassblower's Tools",
+            "category": " Artisan's Tools",
+            "cost": {
+              "quantity": 30,
+              "unit": "gp"
+            },
+            "weight": 5
+          },
+          {
+            "name": "Leatherworker's Tools",
+            "category": " Artisan's Tools",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 5
+          },
+          {
+            "name": "Mason's Tools",
+            "category": " Artisan's Tools",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 8
+          },
+          {
+            "name": "Potter's Tools",
+            "category": " Artisan's Tools",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 3
+          },
+          {
+            "name": "Smith's Tools",
+            "category": " Artisan's Tools",
+            "cost": {
+              "quantity": 20,
+              "unit": "gp"
+            },
+            "weight": 8
+          },
+          {
+            "name": "Weaver's Tools",
+            "category": " Artisan's Tools",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            },
+            "weight": 5
+          },
+          {
+            "name": "Woodcarver's Tools",
+            "category": " Artisan's Tools",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            },
+            "weight": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Blacksmith",
+    "sections": [
+      {
+        "name": "Light Armor",
+        "items": [
+          {
+            "name": "Studded Leather",
+            "category": "Light Armor",
+            "armor_class": 12,
+            "cost": {
+              "quantity": 45,
+              "unit": "gp"
+            },
+            "weight": 13
+          }
+        ]
+      },
+      {
+        "name": "Medium Armor",
+        "items": [
+          {
+            "name": "Chain Shirt",
+            "category": "Medium Armor",
+            "armor_class": 13,
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            },
+            "weight": 20
+          },
+          {
+            "name": "Scale Mail",
+            "category": "Medium Armor",
+            "armor_class": 14,
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            },
+            "weight": 45
+          },
+          {
+            "name": "Breastplate",
+            "category": "Medium Armor",
+            "armor_class": 14,
+            "cost": {
+              "quantity": 400,
+              "unit": "gp"
+            },
+            "weight": 20
+          },
+          {
+            "name": "Half Plate",
+            "category": "Medium Armor",
+            "armor_class": 15,
+            "cost": {
+              "quantity": 750,
+              "unit": "gp"
+            },
+            "weight": 40
+          }
+        ]
+      },
+      {
+        "name": "Heavy Armor",
+        "items": [
+          {
+            "name": "Ring Mail",
+            "category": "Heavy Armor",
+            "armor_class": 14,
+            "cost": {
+              "quantity": 30,
+              "unit": "gp"
+            },
+            "weight": 40
+          },
+          {
+            "name": "Chain Mail",
+            "category": "Heavy Armor",
+            "armor_class": 16,
+            "cost": {
+              "quantity": 75,
+              "unit": "gp"
+            },
+            "weight": 55
+          },
+          {
+            "name": "Splint",
+            "category": "Heavy Armor",
+            "armor_class": 17,
+            "cost": {
+              "quantity": 200,
+              "unit": "gp"
+            },
+            "weight": 60
+          },
+          {
+            "name": "Plate",
+            "category": "Heavy Armor",
+            "armor_class": 18,
+            "cost": {
+              "quantity": 1500,
+              "unit": "gp"
+            },
+            "weight": 65
+          }
+        ]
+      },
+      {
+        "name": "Shields",
+        "items": [
+          {
+            "name": "Shield",
+            "category": "Shield",
+            "armor_class": 2,
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 6
+          }
+        ]
+      },
+      {
+        "name": "Simple Melee Weapons",
+        "items": [
+          {
+            "name": "Dagger",
+            "category": "Simple Melee Weapons",
+            "damage": "1d4 piercing",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Handaxe",
+            "category": "Simple Melee Weapons",
+            "damage": "1d6 slashing",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Javelin",
+            "category": "Simple Melee Weapons",
+            "damage": "1d6 piercing",
+            "cost": {
+              "quantity": 5,
+              "unit": "sp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Light Hammer",
+            "category": "Simple Melee Weapons",
+            "damage": "1d4 bludgeoning",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Mace",
+            "category": "Simple Melee Weapons",
+            "damage": "1d6 bludgeoning",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 4
+          },
+          {
+            "name": "Sickle",
+            "category": "Simple Melee Weapons",
+            "damage": "1d4 slashing",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Spear",
+            "category": "Simple Melee Weapons",
+            "damage": "1d6 piercing",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            },
+            "weight": 3
+          }
+        ]
+      },
+      {
+        "name": "Martial Melee Weapons",
+        "items": [
+          {
+            "name": "Battleaxe",
+            "category": "Martial Melee Weapons",
+            "damage": "1d8 slashing",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 4
+          },
+          {
+            "name": "Flail",
+            "category": "Martial Melee Weapons",
+            "damage": "1d8 bludgeoning",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Glaive",
+            "category": "Martial Melee Weapons",
+            "damage": "1d10 slashing",
+            "cost": {
+              "quantity": 20,
+              "unit": "gp"
+            },
+            "weight": 6
+          },
+          {
+            "name": "Greataxe",
+            "category": "Martial Melee Weapons",
+            "damage": "1d12 slashing",
+            "cost": {
+              "quantity": 30,
+              "unit": "gp"
+            },
+            "weight": 7
+          },
+          {
+            "name": "Greatsword",
+            "category": "Martial Melee Weapons",
+            "damage": "2d6 slashing",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            },
+            "weight": 6
+          },
+          {
+            "name": "Halberd",
+            "category": "Martial Melee Weapons",
+            "damage": "1d10 slashing",
+            "cost": {
+              "quantity": 20,
+              "unit": "gp"
+            },
+            "weight": 6
+          },
+          {
+            "name": "Lance",
+            "category": "Martial Melee Weapons",
+            "damage": "1d12 piercing",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 6
+          },
+          {
+            "name": "Longsword",
+            "category": "Martial Melee Weapons",
+            "damage": "1d8 slashing",
+            "cost": {
+              "quantity": 15,
+              "unit": "gp"
+            },
+            "weight": 3
+          },
+          {
+            "name": "Maul",
+            "category": "Martial Melee Weapons",
+            "damage": "2d6 bludgeoning",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 10
+          },
+          {
+            "name": "Morningstar",
+            "category": "Martial Melee Weapons",
+            "damage": "1d8 piercing",
+            "cost": {
+              "quantity": 15,
+              "unit": "gp"
+            },
+            "weight": 4
+          },
+          {
+            "name": "Pike",
+            "category": "Martial Melee Weapons",
+            "damage": "1d10 piercing",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 18
+          },
+          {
+            "name": "Rapier",
+            "category": "Martial Melee Weapons",
+            "damage": "1d8 piercing",
+            "cost": {
+              "quantity": 25,
+              "unit": "gp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Scimitar",
+            "category": "Martial Melee Weapons",
+            "damage": "1d6 slashing",
+            "cost": {
+              "quantity": 25,
+              "unit": "gp"
+            },
+            "weight": 3
+          },
+          {
+            "name": "Shortsword",
+            "category": "Martial Melee Weapons",
+            "damage": "1d6 piercing",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Trident",
+            "category": "Martial Melee Weapons",
+            "damage": "1d6 piercing",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 4
+          },
+          {
+            "name": "War Pick",
+            "category": "Martial Melee Weapons",
+            "damage": "1d8 piercing",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Warhammer",
+            "category": "Martial Melee Weapons",
+            "damage": "1d8 bludgeoning",
+            "cost": {
+              "quantity": 15,
+              "unit": "gp"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "name": "Adventuring Gear",
+        "items": [
+          {
+            "name": "Ball Bearings",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Bell",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Block and Tackle",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            },
+            "weight": 5
+          },
+          {
+            "name": "Chain (10 feet)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 10
+          },
+          {
+            "name": "Crowbar",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            },
+            "weight": 5
+          },
+          {
+            "name": "Grappling Hook",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            },
+            "weight": 4
+          },
+          {
+            "name": "Hammer",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            },
+            "weight": 3
+          },
+          {
+            "name": "Hammer, Sledge",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            },
+            "weight": 10
+          },
+          {
+            "name": "Hunting Trap",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 25
+          },
+          {
+            "name": "Lamp",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "sp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Lantern, Bullseye",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Lantern, Hooded",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Lock",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Manacles",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            },
+            "weight": 6
+          },
+          {
+            "name": "Mirror, Steel",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 0.5
+          },
+          {
+            "name": "Pick, Miner's",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            },
+            "weight": 10
+          },
+          {
+            "name": "Piton",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "cp"
+            },
+            "weight": 0.25
+          },
+          {
+            "name": "Pot, Iron",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            },
+            "weight": 10
+          },
+          {
+            "name": "Spikes, Iron (10)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            },
+            "weight": 5
+          },
+          {
+            "name": "Whetstone",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "cp"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "name": "Tools",
+        "items": [
+          {
+            "name": "Carpenter's Tools",
+            "category": "Artisan's Tools",
+            "cost": {
+              "quantity": 8,
+              "unit": "gp"
+            },
+            "weight": 6
+          },
+          {
+            "name": "Mason's Tools",
+            "category": "Artisan's Tools",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 8
+          },
+          {
+            "name": "Smith's Tools",
+            "category": "Artisan's Tools",
+            "cost": {
+              "quantity": 20,
+              "unit": "gp"
+            },
+            "weight": 8
+          },
+          {
+            "name": "Tinker's Tools",
+            "category": "Artisan's Tools",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            },
+            "weight": 10
+          },
+          {
+            "name": "Horn",
+            "category": "Musical Instrument",
+            "cost": {
+              "quantity": 3,
+              "unit": "gp"
+            },
+            "weight": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Leatherworker",
+    "sections": [
+      {
+        "name": "Light Armor",
+        "items": [
+          {
+            "name": "Leather",
+            "category": "Light Armor",
+            "armor_class": 11,
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 10
+          },
+          {
+            "name": "Studded Leather",
+            "category": "Light Armor",
+            "armor_class": 12,
+            "cost": {
+              "quantity": 45,
+              "unit": "gp"
+            },
+            "weight": 13
+          }
+        ]
+      },
+      {
+        "name": "Medium Armor",
+        "items": [
+          {
+            "name": "Hide",
+            "category": "Medium Armor",
+            "armor_class": 12,
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 12
+          }
+        ]
+      },
+      {
+        "name": "Shields",
+        "items": [
+          {
+            "name": "Shield",
+            "category": "Shield",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 6
+          }
+        ]
+      },
+      {
+        "name": "Simple Ranged Weapons",
+        "items": [
+          {
+            "name": "Sling",
+            "category": "Simple Ranged Weapons",
+            "damage": "1d4 bludgeoning",
+            "cost": {
+              "quantity": 1,
+              "unit": "sp"
+            },
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "name": "Adventuring Gear",
+        "items": [
+          {
+            "name": "Waterskin",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "sp"
+            },
+            "weight": "1-5"
+          }
+        ]
+      },
+      {
+        "name": "Tools",
+        "items": [
+          {
+            "name": "Cobbler's Tools",
+            "category": "Artisan's Tools",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 5
+          },
+          {
+            "name": "Leatherworker's Tools",
+            "category": "Artisan's Tools",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 5
+          },
+          {
+            "name": "Bagpipes",
+            "category": "Musical Instrument",
+            "cost": {
+              "quantity": 30,
+              "unit": "gp"
+            },
+            "weight": 6
+          },
+          {
+            "name": "Drum",
+            "category": "Musical Instrument",
+            "cost": {
+              "quantity": 6,
+              "unit": "gp"
+            },
+            "weight": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fletcher",
+    "sections": [
+      {
+        "name": "Simple Ranged Weapons",
+        "items": [
+          {
+            "name": "Crossbow, Light",
+            "category": "Simple Ranged Weapon",
+            "damage": "1d8 piercing",
+            "cost": {
+              "quantity": 25,
+              "unit": "gp"
+            },
+            "weight": 5
+          },
+          {
+            "name": "Shortbow",
+            "category": "Simple Ranged Weapon",
+            "damage": "1d6 piercing",
+            "cost": {
+              "quantity": 25,
+              "unit": "gp"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "name": "Martial Ranged Weapons",
+        "items": [
+          {
+            "name": "Crossbow, Hand",
+            "category": "Martial Ranged Weapon",
+            "damage": "1d6 piercing",
+            "cost": {
+              "quantity": 75,
+              "unit": "gp"
+            },
+            "weight": 3
+          },
+          {
+            "name": "Crossbow, Heavy",
+            "category": "Martial Ranged Weapon",
+            "damage": "1d10 piercing",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            },
+            "weight": 18
+          },
+          {
+            "name": "Longbow",
+            "category": "Martial Ranged Weapon",
+            "damage": "1d8 piercing",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "name": "Adventuring Gear",
+        "items": [
+          {
+            "name": "Arrows (20)",
+            "category": "Ammunition",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Crossbow Bolts (20)",
+            "category": "Ammunition",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Bowstring (5)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Case, Crossbow Bolt",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Quiver",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tailor",
+    "sections": [
+      {
+        "name": "Adventuring Gear",
+        "items": [
+          {
+            "name": "Basket",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 4,
+              "unit": "sp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Cloak, Canvas",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 7,
+              "unit": "sp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Cloak, Leather",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            },
+            "weight": 3
+          },
+          {
+            "name": "Cloak, Leather, Lined",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 4,
+              "unit": "gp"
+            },
+            "weight": 4
+          },
+          {
+            "name": "Clothes, Common",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "sp"
+            },
+            "weight": 3
+          },
+          {
+            "name": "Clothes, Costume",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 4
+          },
+          {
+            "name": "Clothes, Fine",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 15,
+              "unit": "gp"
+            },
+            "weight": 6
+          },
+          {
+            "name": "Clothes, Traveler's",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            },
+            "weight": 4
+          },
+          {
+            "name": "Component Pouch",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 25,
+              "unit": "gp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Pouch",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "sp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Robes",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            },
+            "weight": 4
+          },
+          {
+            "name": "Sack",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "cp"
+            },
+            "weight": 0.5
+          },
+          {
+            "name": "Tent, Two-person",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            },
+            "weight": 20
+          }
+        ]
+      },
+      {
+        "name": "Tools",
+        "items": [
+          {
+            "name": "Weaver's Tools",
+            "category": "Artisan's Tools",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            },
+            "weight": 5
+          }
+        ]
+      },
+      {
+        "name": "Misc",
+        "items": [
+          {
+            "name": "Bone Needle (5)",
+            "category": "Misc",
+            "cost": {
+              "quantity": 3,
+              "unit": "cp"
+            }
+          },
+          {
+            "name": "Steel Needle (1)",
+            "category": "Misc",
+            "cost": {
+              "quantity": 1,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Cotton Thread (30 feet)",
+            "category": "Misc",
+            "cost": {
+              "quantity": 5,
+              "unit": "sp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Leather Cord (15 feet)",
+            "category": "Misc",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            },
+            "weight": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tavern",
+    "sections": [
+      {
+        "name": "Breakfast",
+        "items": [
+          {
+            "name": "Meat Stick",
+            "category": "Breakfast",
+            "cost": {
+              "quantity": 3,
+              "unit": "cp"
+            }
+          },
+          {
+            "name": "Roasted Locusts",
+            "category": "Breakfast",
+            "cost": {
+              "quantity": 3,
+              "unit": "cp"
+            }
+          },
+          {
+            "name": "Cheese Omelet",
+            "category": "Breakfast",
+            "cost": {
+              "quantity": 4,
+              "unit": "cp"
+            }
+          },
+          {
+            "name": "Ham & Cheese on Rye",
+            "category": "Breakfast",
+            "cost": {
+              "quantity": 5,
+              "unit": "cp"
+            }
+          },
+          {
+            "name": "Bacon & Egg Sandwich",
+            "category": "Breakfast",
+            "cost": {
+              "quantity": 3,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Omelet Your Way",
+            "category": "Breakfast",
+            "cost": {
+              "quantity": 3,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Bloodhawk Eggs",
+            "category": "Breakfast",
+            "cost": {
+              "quantity": 4,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Bacon Stuffed Bread",
+            "category": "Breakfast",
+            "cost": {
+              "quantity": 5,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Frittata & Herbs",
+            "category": "Breakfast",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Bacon & Owlbear Eggs",
+            "category": "Breakfast",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Boar Ham Steak & Eggs",
+            "category": "Breakfast",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Truffle Omelet",
+            "category": "Breakfast",
+            "cost": {
+              "quantity": 3,
+              "unit": "gp"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Lunch",
+        "items": [
+          {
+            "name": "Stockpot Stew/Soup",
+            "category": "Lunch",
+            "cost": {
+              "quantity": 4,
+              "unit": "cp"
+            }
+          },
+          {
+            "name": "Adventurer's Steak",
+            "category": "Lunch",
+            "cost": {
+              "quantity": 4,
+              "unit": "cp"
+            }
+          },
+          {
+            "name": "Minced Pork",
+            "category": "Lunch",
+            "cost": {
+              "quantity": 5,
+              "unit": "cp"
+            }
+          },
+          {
+            "name": "Roast Goat & Cheese",
+            "category": "Lunch",
+            "cost": {
+              "quantity": 6,
+              "unit": "cp"
+            }
+          },
+          {
+            "name": "Roast Lamb & Cheese",
+            "category": "Lunch",
+            "cost": {
+              "quantity": 4,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Boar Tenderloin",
+            "category": "Lunch",
+            "cost": {
+              "quantity": 5,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Baked Goose Breast",
+            "category": "Lunch",
+            "cost": {
+              "quantity": 5,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Grilled Salmon",
+            "category": "Lunch",
+            "cost": {
+              "quantity": 6,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Rack of Lamb",
+            "category": "Lunch",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Shellfish Platter",
+            "category": "Lunch",
+            "cost": {
+              "quantity": 3,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Dragon Turtle Soup",
+            "category": "Lunch",
+            "cost": {
+              "quantity": 4,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Roc Meat Portion",
+            "category": "Lunch",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dinner",
+        "items": [
+          {
+            "name": "Stockpot Stew/Soup",
+            "category": "Dinner",
+            "cost": {
+              "quantity": 4,
+              "unit": "cp"
+            }
+          },
+          {
+            "name": "Grave of Small Birds",
+            "category": "Dinner",
+            "cost": {
+              "quantity": 5,
+              "unit": "cp"
+            }
+          },
+          {
+            "name": "Tasha's Hideous Stew",
+            "category": "Dinner",
+            "cost": {
+              "quantity": 5,
+              "unit": "cp"
+            }
+          },
+          {
+            "name": "Rabbit & Potato Plate",
+            "category": "Dinner",
+            "cost": {
+              "quantity": 6,
+              "unit": "cp"
+            }
+          },
+          {
+            "name": "Hunter's Pie",
+            "category": "Dinner",
+            "cost": {
+              "quantity": 4,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Bloodhawk Breast",
+            "category": "Dinner",
+            "cost": {
+              "quantity": 5,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Crocodile Steak",
+            "category": "Dinner",
+            "cost": {
+              "quantity": 5,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Roasted Bullywug Legs",
+            "category": "Dinner",
+            "cost": {
+              "quantity": 6,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Buffalo Ribeye",
+            "category": "Dinner",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Sahuagin Caviar",
+            "category": "Dinner",
+            "cost": {
+              "quantity": 3,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Owlbear Steak & Eggs",
+            "category": "Dinner",
+            "cost": {
+              "quantity": 4,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "[color] Dragon Steak",
+            "category": "Dinner",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Rooms",
+        "items": [
+          {
+            "name": "Squalid",
+            "category": "Room",
+            "cost": {
+              "quantity": 7,
+              "unit": "cp"
+            }
+          },
+          {
+            "name": "Poor",
+            "category": "Room",
+            "cost": {
+              "quantity": 1,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Modest",
+            "category": "Room",
+            "cost": {
+              "quantity": 5,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Comfortable",
+            "category": "Room",
+            "cost": {
+              "quantity": 8,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Wealthy",
+            "category": "Room",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Aristocratic",
+            "category": "Room",
+            "cost": {
+              "quantity": 4,
+              "unit": "gp"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Arcane",
+    "sections": [
+      {
+        "name": "Simple Melee Weapons",
+        "items": [
+          {
+            "name": "Quarterstaff",
+            "category": "Simple Melee Weapons",
+            "damage": "1d6 bludgeoning",
+            "cost": {
+              "quantity": 2,
+              "unit": "sp"
+            },
+            "weight": 4
+          }
+        ]
+      },
+      {
+        "name": "Adventuring Gear",
+        "items": [
+          {
+            "name": "Abacus",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Bottle, glass",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Candle",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "cp"
+            }
+          },
+          {
+            "name": "Case, Map or Scroll",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Component Pouch",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 25,
+              "unit": "gp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Hourglass",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 25,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Ink (1 ounce bottle)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Ink Pen",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "cp"
+            }
+          },
+          {
+            "name": "Paper (one sheet)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Parchment (one sheet)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Pouch",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "sp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Robes",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            },
+            "weight": 4
+          },
+          {
+            "name": "Spellbook",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            },
+            "weight": 3
+          },
+          {
+            "name": "Vial",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Crystal",
+            "category": "Arcane Focus",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Orb",
+            "category": "Arcane Focus",
+            "cost": {
+              "quantity": 20,
+              "unit": "gp"
+            },
+            "weight": 3
+          },
+          {
+            "name": "Rod",
+            "category": "Arcane Focus",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Staff",
+            "category": "Arcane Focus",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 4
+          },
+          {
+            "name": "Wand",
+            "category": "Arcane Focus",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Sprig of Mistletoe",
+            "category": "Druidic Focus",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Totem",
+            "category": "Druidic Focus",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Wooden Staff",
+            "category": "Druidic Focus",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 4
+          },
+          {
+            "name": "Yew Wand",
+            "category": "Druidic Focus",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "name": "Tools",
+        "items": [
+          {
+            "name": "Alchemist's Supplies",
+            "category": "Artisan's Tools",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            },
+            "weight": 8
+          },
+          {
+            "name": "Calligrapher's Supplies",
+            "category": "Artisan's Tools",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 5
+          },
+          {
+            "name": "Lute",
+            "category": "Musical Instrument",
+            "cost": {
+              "quantity": 35,
+              "unit": "gp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Lyre",
+            "category": "Musical Instrument",
+            "cost": {
+              "quantity": 30,
+              "unit": "gp"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "name": "Magic Items",
+        "items": [
+          {
+            "name": "Common (Cantrip)",
+            "category": "Spell Scrolls/Gems",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Common (Level 1)",
+            "category": "Spell Scrolls/Gems",
+            "cost": {
+              "quantity": 100,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Uncommon (Level 2)",
+            "category": "Spell Scrolls/Gems",
+            "cost": {
+              "quantity": 250,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Uncommon (Level 3)",
+            "category": "Spell Scrolls/Gems",
+            "cost": {
+              "quantity": 500,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Rare (Level 4)",
+            "category": "Spell Scrolls/Gems",
+            "cost": {
+              "quantity": 2500,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Rare (Level 5)",
+            "category": "Spell Scrolls/Gems",
+            "cost": {
+              "quantity": 5000,
+              "unit": "gp"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Services",
+        "items": [
+          {
+            "name": "Magic Appraisal",
+            "category": "Services",
+            "cost": {
+              "quantity": 100,
+              "unit": "gp"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Potions",
+    "sections": [
+      {
+        "name": "Adventuring Gear",
+        "items": [
+          {
+            "name": "Acid (vial)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 25,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Alchemist's Fire (flask)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Antitoxin (vial)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Component Pouch",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 25,
+              "unit": "gp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Oil (flask)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "sp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Perfume (vial)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Poison, Basic (vial)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 100,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Potion of Healing",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            },
+            "weight": 0.5
+          },
+          {
+            "name": "Vial",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Alchemy Ingredients",
+        "items": [
+          {
+            "name": "Common",
+            "category": "Alchemy Ingredients",
+            "cost": {
+              "quantity": 3,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Uncommon",
+            "category": "Alchemy Ingredients",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Rare",
+            "category": "Alchemy Ingredients",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Very Rare",
+            "category": "Alchemy Ingredients",
+            "cost": {
+              "quantity": 30,
+              "unit": "gp"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Tools",
+        "items": [
+          {
+            "name": "Alchemist's Supplies",
+            "category": "Artisan's Tools",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            },
+            "weight": 8
+          },
+          {
+            "name": "Brewer's Supplies",
+            "category": "Artisan's Tools",
+            "cost": {
+              "quantity": 20,
+              "unit": "gp"
+            },
+            "weight": 9
+          },
+          {
+            "name": "Cook's Utensils",
+            "category": "Artisan's Tools",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            },
+            "weight": 8
+          },
+          {
+            "name": "Poisoner's Kit",
+            "category": "Tools",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "name": "Magic Items",
+        "items": [
+          {
+            "name": "Common Potion",
+            "category": "Potions",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Uncommon Potion",
+            "category": "Potions",
+            "cost": {
+              "quantity": 250,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Rare Potion",
+            "category": "Potions",
+            "cost": {
+              "quantity": 2500,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Very Rare Potion",
+            "category": "Potions",
+            "cost": {
+              "quantity": 12500,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Legendary Potion",
+            "category": "Potions",
+            "cost": {
+              "quantity": 62500,
+              "unit": "gp"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Temple",
+    "sections": [
+      {
+        "name": "Adventuring Gear",
+        "items": [
+          {
+            "name": "Alms Box",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Bell",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Blanket",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "sp"
+            },
+            "weight": 3
+          },
+          {
+            "name": "Book, Scripture",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 25,
+              "unit": "gp"
+            },
+            "weight": 5
+          },
+          {
+            "name": "Candle",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "cp"
+            }
+          },
+          {
+            "name": "Case, Map or Scroll",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Censer",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Chalk (1 piece)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "cp"
+            }
+          },
+          {
+            "name": "Flask",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "cp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Healer's Kit",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 3
+          },
+          {
+            "name": "Holy Water (flask)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 25,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Incense (1 block)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "cp"
+            }
+          },
+          {
+            "name": "Ink (1 ounce bottle)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Ink Pen",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "cp"
+            }
+          },
+          {
+            "name": "Lamp",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "sp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Lantern, Hooded",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Oil (flask)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "sp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Paper (one sheet)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Parchment (one sheet)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Perfume (vial)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Potion of Healing",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            },
+            "weight": 0.5
+          },
+          {
+            "name": "Rations (1 day)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "sp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Torch",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "cp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Vial",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Waterskin",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 2,
+              "unit": "sp"
+            },
+            "weight": "1-5"
+          },
+          {
+            "name": "Amulet",
+            "category": "Holy Symbol",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Emblem",
+            "category": "Holy Symbol",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Reliquary",
+            "category": "Holy Symbol",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "name": "Tools",
+        "items": [
+          {
+            "name": "Calligrapher's Supplies",
+            "category": "Artisan's Tools",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 5
+          },
+          {
+            "name": "Herbalism Kit",
+            "category": "Tools",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 3
+          }
+        ]
+      },
+      {
+        "name": "Services",
+        "items": [
+          {
+            "name": "Cure Wounds (lvl 1)",
+            "category": "Spellcasting",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Gentle Repose (lvl 2)",
+            "category": "Spellcasting",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Lesser Restoration (lvl 2)",
+            "category": "Spellcasting",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Remove Curse (lvl 3)",
+            "category": "Spellcasting",
+            "cost": {
+              "quantity": 100,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Revivify (lvl 3)",
+            "category": "Spellcasting",
+            "cost": {
+              "quantity": 400,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Raise Dead (lvl 5)",
+            "category": "Spellcasting",
+            "cost": {
+              "quantity": 1000,
+              "unit": "gp"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jeweler",
+    "sections": [
+      {
+        "name": "Adventuring Gear",
+        "items": [
+          {
+            "name": "Amulet/Necklace, Exquisite",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Amulet/Necklace, Mundane",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "sp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Earrings, Exquisite",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 4,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Earrings, Mundane",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 4,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Ring, Exquisite",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 3,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Ring, Mundane",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 3,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Signet Ring",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Crystal",
+            "category": "Arcane Focus",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Orb",
+            "category": "Arcane Focus",
+            "cost": {
+              "quantity": 20,
+              "unit": "gp"
+            },
+            "weight": 3
+          }
+        ]
+      },
+      {
+        "name": "Tools",
+        "items": [
+          {
+            "name": "Jeweler's Tools",
+            "category": "Artisan's Tools",
+            "cost": {
+              "quantity": 25,
+              "unit": "gp"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "name": "Services",
+        "items": [
+          {
+            "name": "Gemstone Appraisal (3 gems)",
+            "category": "Services",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Resizing Jewelry",
+            "category": "Services",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Set Gem (<100 gp value)",
+            "category": "Services",
+            "cost": {
+              "quantity": 45,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Set Gem (100-1K gp value)",
+            "category": "Services",
+            "cost": {
+              "quantity": 75,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Set Gem (1K+gp value)",
+            "category": "Services",
+            "cost": {
+              "quantity": 150,
+              "unit": "gp"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Gemstones",
+        "items": [
+          {
+            "name": "Azurite (Deep blue)",
+            "category": "Gemstone (10gp)",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Banded agate (Brown/Blue)",
+            "category": "Gemstone (10gp)",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Blue quartz (Pale blue)",
+            "category": "Gemstone (10gp)",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Eye agate (Circles, gray/blue)",
+            "category": "Gemstone (10gp)",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Hematite (Opaque gray-black)",
+            "category": "Gemstone (10gp)",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Lapis lazuli (Blue with yellow)",
+            "category": "Gemstone (10gp)",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Malachite (Striated greens)",
+            "category": "Gemstone (10gp)",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Moss agate (Pale, moss marks)",
+            "category": "Gemstone (10gp)",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Obsidian (Opaque black)",
+            "category": "Gemstone (10gp)",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Rhodochrosite (Light pink)",
+            "category": "Gemstone (10gp)",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Tiger eye (Brown, gold center)",
+            "category": "Gemstone (10gp)",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Turquoise (Light blue-green)",
+            "category": "Gemstone (10gp)",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Bloodstone (Gray with red)",
+            "category": "Gemstone (50gp)",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Carnelian (Opaque orange)",
+            "category": "Gemstone (50gp)",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Chalcedony (Opaque white)",
+            "category": "Gemstone (50gp)",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Chrysoprase (Clear green)",
+            "category": "Gemstone (50gp)",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Citrine (Pale yellow-brown)",
+            "category": "Gemstone (50gp)",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Jasper (Blue, black, or brown)",
+            "category": "Gemstone (50gp)",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Moonstone (White + glow)",
+            "category": "Gemstone (50gp)",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Onyx (Black, white, or both)",
+            "category": "Gemstone (50gp)",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Quartz (Transparent range)",
+            "category": "Gemstone (50gp)",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Sardonyx (Red & white)",
+            "category": "Gemstone (50gp)",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Star rose quartz (White star)",
+            "category": "Gemstone (50gp)",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Zircon (Pale blue-green)",
+            "category": "Gemstone (50gp)",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Amber (watery gold)",
+            "category": "Gemstone (100gp)",
+            "cost": {
+              "quantity": 100,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Amethyst (Deep purple)",
+            "category": "Gemstone (100gp)",
+            "cost": {
+              "quantity": 100,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Chrysoberyl (Yellow-green)",
+            "category": "Gemstone (100gp)",
+            "cost": {
+              "quantity": 100,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Coral (Opaque crimson)",
+            "category": "Gemstone (100gp)",
+            "cost": {
+              "quantity": 100,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Garnet (Red or violet)",
+            "category": "Gemstone (100gp)",
+            "cost": {
+              "quantity": 100,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Jade (Green to white)",
+            "category": "Gemstone (100gp)",
+            "cost": {
+              "quantity": 100,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Jet (Opaque deep black)",
+            "category": "Gemstone (100gp)",
+            "cost": {
+              "quantity": 100,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Pearl (Lustrous white to pink)",
+            "category": "Gemstone (100gp)",
+            "cost": {
+              "quantity": 100,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Spinel (Clear red to green)",
+            "category": "Gemstone (100gp)",
+            "cost": {
+              "quantity": 100,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Tourmaline (Pale red/brown)",
+            "category": "Gemstone (100gp)",
+            "cost": {
+              "quantity": 100,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Alexandrite (Dark green)",
+            "category": "Gemstone (500gp)",
+            "cost": {
+              "quantity": 500,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Aquamarine (Pale green-blue)",
+            "category": "Gemstone (500gp)",
+            "cost": {
+              "quantity": 500,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Black pearl (pure black)",
+            "category": "Gemstone (500gp)",
+            "cost": {
+              "quantity": 500,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Blue spinel (Deep blue)",
+            "category": "Gemstone (500gp)",
+            "cost": {
+              "quantity": 500,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Peridot (Rich olive green)",
+            "category": "Gemstone (500gp)",
+            "cost": {
+              "quantity": 500,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Topaz (Golden yellow)",
+            "category": "Gemstone (500gp)",
+            "cost": {
+              "quantity": 500,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Black Opal (Translucent green)",
+            "category": "Gemstone (1000gp)",
+            "cost": {
+              "quantity": 1000,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Blue sapphire (Shades of blue)",
+            "category": "Gemstone (1000gp)",
+            "cost": {
+              "quantity": 1000,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Emerald (Deep bright green)",
+            "category": "Gemstone (1000gp)",
+            "cost": {
+              "quantity": 1000,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Fire opal (Firey red)",
+            "category": "Gemstone (1000gp)",
+            "cost": {
+              "quantity": 1000,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Opal (Pale blue with green)",
+            "category": "Gemstone (1000gp)",
+            "cost": {
+              "quantity": 1000,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Star ruby (Ruby with star)",
+            "category": "Gemstone (1000gp)",
+            "cost": {
+              "quantity": 1000,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Star sapphire (Blue with star)",
+            "category": "Gemstone (1000gp)",
+            "cost": {
+              "quantity": 1000,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Yellow sapphire (Firey yellow)",
+            "category": "Gemstone (1000gp)",
+            "cost": {
+              "quantity": 1000,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Black Sapphire (Lustrous black)",
+            "category": "Gemstone (5000gp)",
+            "cost": {
+              "quantity": 5000,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Diamond (Transparent)",
+            "category": "Gemstone (5000gp)",
+            "cost": {
+              "quantity": 5000,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Jacinth (Firey orange)",
+            "category": "Gemstone (5000gp)",
+            "cost": {
+              "quantity": 5000,
+              "unit": "gp"
+            }
+          },
+          {
+            "name": "Ruby (Shades of red)",
+            "category": "Gemstone (5000gp)",
+            "cost": {
+              "quantity": 5000,
+              "unit": "gp"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mounts & Vehicles",
+    "sections": [
+      {
+        "name": "Mounts",
+        "items": [
+          {
+            "name": "Camel",
+            "category": "Mounts",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            },
+            "speed": "50 ft",
+            "capacity": 480
+          },
+          {
+            "name": "Donkey",
+            "category": "Mounts",
+            "cost": {
+              "quantity": 8,
+              "unit": "gp"
+            },
+            "speed": "40 ft",
+            "capacity": 420
+          },
+          {
+            "name": "Elephant",
+            "category": "Mounts",
+            "cost": {
+              "quantity": 200,
+              "unit": "gp"
+            },
+            "speed": "40 ft",
+            "capacity": 1320
+          },
+          {
+            "name": "Horse, draft",
+            "category": "Mounts",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            },
+            "speed": "40 ft",
+            "capacity": 540
+          },
+          {
+            "name": "Horse, riding",
+            "category": "Mounts",
+            "cost": {
+              "quantity": 75,
+              "unit": "gp"
+            },
+            "speed": "60 ft",
+            "capacity": 480
+          },
+          {
+            "name": "Mastiff",
+            "category": "Mounts",
+            "cost": {
+              "quantity": 25,
+              "unit": "gp"
+            },
+            "speed": "40 ft",
+            "capacity": 195
+          },
+          {
+            "name": "Pony",
+            "category": "Mounts",
+            "cost": {
+              "quantity": 30,
+              "unit": "gp"
+            },
+            "speed": "40 ft",
+            "capacity": 225
+          },
+          {
+            "name": "Warhorse",
+            "category": "Mounts",
+            "cost": {
+              "quantity": 400,
+              "unit": "gp"
+            },
+            "speed": "60 ft",
+            "capacity": 540
+          }
+        ]
+      },
+      {
+        "name": "Tack & Drawn Vehicles",
+        "items": [
+          {
+            "name": "Barding",
+            "category": "Tack & Drawn Vehicles",
+            "cost": {
+              "quantity": "",
+              "unit": "X4"
+            },
+            "weight": "X2"
+          },
+          {
+            "name": "Bit & Bridle",
+            "category": "Tack & Drawn Vehicles",
+            "cost": {
+              "quantity": 2,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Carriage",
+            "category": "Tack & Drawn Vehicles",
+            "cost": {
+              "quantity": 100,
+              "unit": "gp"
+            },
+            "weight": 600
+          },
+          {
+            "name": "Cart",
+            "category": "Tack & Drawn Vehicles",
+            "cost": {
+              "quantity": 15,
+              "unit": "gp"
+            },
+            "weight": 200
+          },
+          {
+            "name": "Chariot",
+            "category": "Tack & Drawn Vehicles",
+            "cost": {
+              "quantity": 250,
+              "unit": "gp"
+            },
+            "weight": 100
+          },
+          {
+            "name": "Feed (per day)",
+            "category": "Tack & Drawn Vehicles",
+            "cost": {
+              "quantity": 5,
+              "unit": "cp"
+            },
+            "weight": 10
+          },
+          {
+            "name": "Saddle (Exotic)",
+            "category": "Tack & Drawn Vehicles",
+            "cost": {
+              "quantity": 60,
+              "unit": "gp"
+            },
+            "weight": 40
+          },
+          {
+            "name": "Saddle (Military)",
+            "category": "Tack & Drawn Vehicles",
+            "cost": {
+              "quantity": 20,
+              "unit": "gp"
+            },
+            "weight": 30
+          },
+          {
+            "name": "Saddle (Pack)",
+            "category": "Tack & Drawn Vehicles",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 15
+          },
+          {
+            "name": "Saddle (Riding)",
+            "category": "Tack & Drawn Vehicles",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 25
+          },
+          {
+            "name": "Saddlebags",
+            "category": "Tack & Drawn Vehicles",
+            "cost": {
+              "quantity": 4,
+              "unit": "gp"
+            },
+            "weight": 8
+          },
+          {
+            "name": "Sled",
+            "category": "Tack & Drawn Vehicles",
+            "cost": {
+              "quantity": 20,
+              "unit": "gp"
+            },
+            "weight": 300
+          },
+          {
+            "name": "Stabling (per day)",
+            "category": "Tack & Drawn Vehicles",
+            "cost": {
+              "quantity": 5,
+              "unit": "sp"
+            }
+          },
+          {
+            "name": "Wagon",
+            "category": "Tack & Drawn Vehicles",
+            "cost": {
+              "quantity": 35,
+              "unit": "gp"
+            },
+            "weight": 400
+          }
+        ]
+      },
+      {
+        "name": "Waterborne Vehicles",
+        "items": [
+          {
+            "name": "Galley",
+            "category": "Waterborne Vehicles",
+            "cost": {
+              "quantity": 30000,
+              "unit": "gp"
+            },
+            "speed": "4 mph"
+          },
+          {
+            "name": "Keelboat",
+            "category": "Waterborne Vehicles",
+            "cost": {
+              "quantity": 3000,
+              "unit": "gp"
+            },
+            "speed": "1 mph"
+          },
+          {
+            "name": "Longship",
+            "category": "Waterborne Vehicles",
+            "cost": {
+              "quantity": 10000,
+              "unit": "gp"
+            },
+            "speed": "3 mph"
+          },
+          {
+            "name": "Rowboat",
+            "category": "Waterborne Vehicles",
+            "cost": {
+              "quantity": 50,
+              "unit": "gp"
+            },
+            "speed": "1.5 mph"
+          },
+          {
+            "name": "Sailing Ship",
+            "category": "Waterborne Vehicles",
+            "cost": {
+              "quantity": 10000,
+              "unit": "gp"
+            },
+            "speed": "2 mph"
+          },
+          {
+            "name": "Warship",
+            "category": "Waterborne Vehicles",
+            "cost": {
+              "quantity": 25000,
+              "unit": "gp"
+            },
+            "speed": "2.5 mph"
+          }
+        ]
+      }
+    ]
+  }
+]
