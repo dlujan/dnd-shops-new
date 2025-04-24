@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Potions</h1>
+    <ShopHeader name="Potions" />
     <ul class="item-list" v-for="section in potions.sections">
       <Item v-for="item in section.items" :key="item.name" :item="item" />
     </ul>
@@ -11,4 +11,5 @@
 import { useShopsStore } from "../stores/ShopsStore";
 const { potions } = useShopsStore();
 import Item from "../components/Item.vue";
+import ShopHeader from "../components/ShopHeader.vue";
 </script>

@@ -36,7 +36,6 @@ const filteredItems = computed(() => {
 .search-container {
   background-color: #fff;
   border: 1px solid #ccc;
-  padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 1000;
 }
@@ -58,7 +57,7 @@ h3 {
 
 input[type="text"] {
   width: 100%;
-  padding: 8px;
+  padding: 10px;
   border: 1px solid #ccc;
   box-sizing: border-box; /* Fixes padding and border issue */
 }

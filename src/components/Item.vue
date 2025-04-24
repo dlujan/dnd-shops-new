@@ -1,6 +1,6 @@
 <template>
   <li class="item">
-    <h2>{{ item.name }}</h2>
+    <h3>{{ item.name }}</h3>
     <p>Category: {{ item.category }}</p>
     <p>Cost: {{ item.cost.quantity }} {{ item.cost.unit }}</p>
     <p>Weight: {{ item.weight }} lbs</p>
