@@ -4,7 +4,7 @@
     <div class="main-content">
       <div class="header">
         <div>
-          <h1>D&D Shops - Free Item Library</h1>
+          <h1>Tobulux's Market - Free D&D Item Library</h1>
           <small>
             Requests and feedback are welcome! Just send an email to
             daniel.lujan96@gmail.com.
@@ -47,6 +47,7 @@ const isShowing = ref(false);
 const currentQuote = ref("");
 
 const quotes = [
+  "It is I, Tobulux!",
   "Beholder used Death Ray!",
   "You dare approach me?",
   "I see all...",
@@ -56,7 +57,6 @@ const quotes = [
   "Another eye opens...",
   "The dungeon trembles before me.",
   "Foolish mortal, this is my lair!",
-  "You've triggered my trap card—wait, wrong game.",
 ];
 
 function showQuote() {
