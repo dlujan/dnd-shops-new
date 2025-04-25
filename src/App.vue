@@ -118,7 +118,6 @@ small {
 }
 .beholder.disabled {
   pointer-events: none;
-  opacity: 0.5;
 }
 .quote-box {
   position: absolute;
