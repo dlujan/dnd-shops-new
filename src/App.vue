@@ -3,25 +3,64 @@
     <Sidebar />
     <div class="main-content">
       <div class="header">
-        <h1>D&D Shops - Free Item Library</h1>
-        <small>
-          Requests and feedback are welcome! If you find this site useful you
-          can buy me a coffee
-          <a href="https://buymeacoffee.com/dlujan" target="_blank">here</a>!
-          ☕️
-        </small>
+        <div>
+          <h1>D&D Shops - Free Item Library</h1>
+          <small>
+            Requests and feedback are welcome! Just send an email to
+            daniel.lujan96@gmail.com.
+          </small>
+        </div>
+        <div class="beholder-wrapper">
+          <div
+            class="beholder"
+            @click="showQuote"
+            :class="{ disabled: isShowing }"
+          >
+            <img src="/favicon.svg" />
+          </div>
+          <div class="quote-box" v-if="isShowing">{{ currentQuote }}</div>
+        </div>
       </div>
       <SearchItems />
       <router-view />
+      <br />
+      <small
+        >Thanks for using D&D Shops! ❤️ If you find this site useful you can buy
+        me a coffee
+        <a href="https://buymeacoffee.com/dlujan" target="_blank">here</a>!
+        ☕️</small
+      >
     </div>
   </div>
 </template>
 
 <script setup>
+import { ref } from "vue";
 import Sidebar from "./components/Sidebar.vue";
 import SearchItems from "./components/SearchItems.vue";
-import { useShopsStore } from "./stores/ShopsStore";
-const { all_items } = useShopsStore();
+
+const isShowing = ref(false);
+const currentQuote = ref("");
+
+const quotes = [
+  "Beholder used Death Ray!",
+  "You dare approach me?",
+  "I see all...",
+  "Roll for initiative!",
+  "Don't look into its eye!",
+];
+
+function showQuote() {
+  if (isShowing.value) return;
+
+  currentQuote.value = quotes[Math.floor(Math.random() * quotes.length)];
+  isShowing.value = true;
+
+  setTimeout(() => {
+    isShowing.value = false;
+    currentQuote.value = "";
+  }, 2000);
+}
 </script>
 
 <style>
@@ -38,10 +77,12 @@ body {
   background: #252525;
 }
 .header {
-  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
 }
 h1 {
-  font-family: fantasy;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   color: #c9c9c9;
   margin-bottom: 0;
 }
@@ -59,9 +100,37 @@ small {
   margin: 0;
   padding: 0;
 }
+.beholder-wrapper {
+  position: relative;
+}
+.beholder {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.beholder.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+.quote-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-80%);
+  background: #444;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  font-size: 0.9rem;
+}
 @media screen and (max-width: 1024px) {
   .main-content {
     margin-left: 0;
+  }
+  .header {
+    margin-bottom: 1rem;
   }
 }
 </style>

@@ -45,7 +45,7 @@ const { shops } = useShopsStore();
   }
 }
 .router-link-active {
-  background: rgba(230, 34, 34, 0.306);
+  background: #c41e3a8b;
 }
 @media screen and (max-width: 1024px) {
   .sidebar {

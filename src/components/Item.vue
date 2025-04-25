@@ -1,9 +1,11 @@
 <template>
   <li class="item">
-    <h3>{{ item.name }}</h3>
-    <p>Category: {{ item.category }}</p>
-    <p>Cost: {{ item.cost.quantity }} {{ item.cost.unit }}</p>
-    <p>Weight: {{ item.weight }} lbs</p>
+    <h3 v-if="item.name">{{ item.name }}</h3>
+    <p v-if="item.category">Category: {{ item.category }}</p>
+    <p v-if="item.cost.quantity && item.cost.unit">
+      Cost: {{ item.cost.quantity }} {{ item.cost.unit }}
+    </p>
+    <p v-if="item.weight">Weight: {{ item.weight }} lbs</p>
   </li>
 </template>
 
@@ -29,6 +31,7 @@ const props = defineProps({
 <style scoped>
 .item {
   border: 1px solid #ddd;
+  border-radius: 2px;
   padding: 16px;
   margin-top: 8px;
   background-color: #f9f9f9;

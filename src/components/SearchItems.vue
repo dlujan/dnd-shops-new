@@ -36,6 +36,7 @@ const filteredItems = computed(() => {
 .search-container {
   background-color: #fff;
   border: 1px solid #ccc;
+  border-radius: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 1000;
 }

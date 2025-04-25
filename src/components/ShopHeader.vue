@@ -52,11 +52,19 @@ const navigateTo = (event) => {
   gap: 1rem;
 }
 h2 {
-  font-family: fantasy;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   color: #c9c9c9;
 }
 .shop-dropdown {
   padding: 0.25rem 0.5rem;
   font-size: 1rem;
+  border-radius: 2px;
+}
+@media screen and (max-width: 1024px) {
+  .header {
+    flex-direction: column;
+    gap: 0;
+  }
 }
 </style>
