@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ShopHeader name="Leatherworker" />
+    <ShopHeader shopName="Leatherworker" />
     <ul class="item-list" v-for="section in leatherworker.sections">
       <Item v-for="item in section.items" :key="item.name" :item="item" />
     </ul>

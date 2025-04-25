@@ -1,6 +1,10 @@
 <template>
   <div class="search-container">
-    <input v-model="searchQuery" type="text" placeholder="Search items..." />
+    <input
+      v-model="searchQuery"
+      type="text"
+      placeholder="Search all items..."
+    />
 
     <div class="item-list">
       <div v-for="(item, i) in filteredItems" :key="'item-' + i" class="item">

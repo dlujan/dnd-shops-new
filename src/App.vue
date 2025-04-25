@@ -21,6 +21,9 @@
           <div class="quote-box" v-if="isShowing">"{{ currentQuote }}"</div>
         </div>
       </div>
+
+      <FeaturedItem />
+
       <SearchItems />
       <router-view />
       <br />
@@ -38,6 +41,7 @@
 import { ref } from "vue";
 import Sidebar from "./components/Sidebar.vue";
 import SearchItems from "./components/SearchItems.vue";
+import FeaturedItem from "./components/FeaturedItem.vue";
 
 const isShowing = ref(false);
 const currentQuote = ref("");

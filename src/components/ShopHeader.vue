@@ -1,6 +1,9 @@
 <template>
   <div class="header">
-    <h2>{{ name }}</h2>
+    <div>
+      <h2>{{ props.shopName }}</h2>
+      <em>"{{ shopkeeperQuote }}"</em>
+    </div>
     <select
       @change="navigateTo($event)"
       class="shop-dropdown"
@@ -23,21 +26,86 @@
 
 <script setup>
 import { useRouter, useRoute } from "vue-router";
-import { ref, watch } from "vue";
+import { ref, watch, computed } from "vue";
 
-defineProps({
-  name: String,
+const props = defineProps({
+  shopName: String,
 });
 
 const router = useRouter();
 const route = useRoute();
 const currentPath = ref(route.path);
 
+// Quotes for each shop
+const shopkeeperQuotes = {
+  "General Store": [
+    "Check out our stock!",
+    "Everything you need for your next quest!",
+    "Quality goods at fair prices!",
+  ],
+  Blacksmith: [
+    "Only the finest blades and armor here!",
+    "Need a new sword? I’ve got you covered.",
+    "Strong as dragon’s steel!",
+  ],
+  Leatherworker: [
+    "Leather goods that'll last a lifetime!",
+    "Crafted from the finest hides.",
+    "You won't find softer boots anywhere.",
+  ],
+  Fletcher: [
+    "Arrows, bolts, and everything pointy!",
+    "Sharpen your aim, traveler.",
+    "Feathers straight from the Roc Mountains!",
+  ],
+  Tailor: [
+    "Robes, capes, and finery for adventurers!",
+    "Dress for success... or at least survival.",
+    "The latest fashions from the capital!",
+  ],
+  Tavern: [
+    "Come in, have a pint!",
+    "Stories and rumors for sale... along with ale!",
+    "Take a load off, traveler.",
+  ],
+  Arcane: [
+    "Mystic artifacts await!",
+    "Spells and scrolls, no refunds!",
+    "Power has a price, my friend.",
+  ],
+  Potions: [
+    "One sip could save your life!",
+    "Brews for every ailment and adventure.",
+    "Careful! That one bites back.",
+  ],
+  Temple: [
+    "Blessings upon your journey.",
+    "Holy relics and divine charms.",
+    "May the gods guide your steps.",
+  ],
+  Jeweler: [
+    "Sparkles enough to blind a dragon!",
+    "Rare gems and precious trinkets.",
+    "Nothing but the finest craftsmanship.",
+  ],
+  "Mounts & Vehicles": [
+    "Need a ride? You've come to the right place!",
+    "Strong legs and sturdy wheels for hire.",
+    "From horses to flying carpets, we have it all!",
+  ],
+};
+
+// Function to pick a random quote based on shop name
+const shopkeeperQuote = computed(() => {
+  const quotes =
+    shopkeeperQuotes[props.shopName] || shopkeeperQuotes["General"];
+  return quotes[Math.floor(Math.random() * quotes.length)];
+});
+
 // Update `currentPath` if route changes externally
 watch(route, () => {
   currentPath.value = route.path;
 });
-
 const navigateTo = (event) => {
   const path = event.target.value;
   router.push(path);
@@ -51,10 +119,13 @@ const navigateTo = (event) => {
   justify-content: space-between;
   gap: 1rem;
 }
+h2,
+em {
+  color: #c9c9c9;
+}
 h2 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: #c9c9c9;
 }
 .shop-dropdown {
   padding: 0.25rem 0.5rem;
@@ -65,6 +136,12 @@ h2 {
   .header {
     flex-direction: column;
     gap: 0;
+  }
+  h2 {
+    margin-bottom: 0.5rem;
+  }
+  .header > div {
+    margin-bottom: 1rem;
   }
 }
 </style>
