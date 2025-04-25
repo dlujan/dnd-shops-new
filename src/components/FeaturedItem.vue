@@ -16,51 +16,64 @@
         -Unknown swordsman, last recorded words
       </p>
 
-      <ul class="traits">
-        <li>Type: Weapon (Longsword)</li>
-        <li>Rarity: Rare</li>
-        <li>
-          Requires Attunement by a creature that has spoken at least one lie in
-          the last 24 hours
-        </li>
-      </ul>
-      <small>
-        Forged in a forgotten hall where sound never dies, the Echoblade hums
-        faintly with whispers of the past. Every swing seems to carry a delay —
-        not in movement, but in consequence. The sword reacts not just to the
-        moment of impact, but to the memory of it.
-      </small>
-      <ul>
-        <li>
-          <small
-            ><strong>Echo Strike:</strong> When you hit a creature with this
-            sword, a delayed phantom slash echoes the attack at the start of
-            your next turn, dealing an additional 1d6 force damage to the same
-            target (or the space they last occupied, if they moved).</small
-          >
-        </li>
-        <li>
-          <small
-            ><strong>Truth Has No Power Here:</strong> While attuned, you have
-            advantage on Deception checks. However, you cannot speak the
-            absolute truth three times in a row — the blade lightly shocks you
-            (1 psychic damage) if you do.</small
-          >
-        </li>
-        <li>
-          <small
-            ><strong>Whispers of the Wielder:</strong> Once per day, you can ask
-            the blade a yes/no question aloud. It answers in your own voice, but
-            with an ominous echo. The blade is not bound to truth or
-            accuracy.</small
-          >
-        </li>
-      </ul>
+      <div v-if="showDetails">
+        <ul>
+          <li>Type: Weapon (Longsword)</li>
+          <li>Rarity: Rare</li>
+          <li>
+            Requires Attunement by a creature that has spoken at least one lie
+            in the last 24 hours
+          </li>
+        </ul>
+        <small>
+          Forged in a forgotten hall where sound never dies, the Echoblade hums
+          faintly with whispers of the past. Every swing seems to carry a delay
+          — not in movement, but in consequence. The sword reacts not just to
+          the moment of impact, but to the memory of it.
+        </small>
+        <ul>
+          <li>
+            <small
+              ><strong>Echo Strike:</strong> When you hit a creature with this
+              sword, a delayed phantom slash echoes the attack at the start of
+              your next turn, dealing an additional 1d6 force damage to the same
+              target (or the space they last occupied, if they moved).</small
+            >
+          </li>
+          <li>
+            <small
+              ><strong>Truth Has No Power Here:</strong> While attuned, you have
+              advantage on Deception checks. However, you cannot speak the
+              absolute truth three times in a row — the blade lightly shocks you
+              (1 psychic damage) if you do.</small
+            >
+          </li>
+          <li>
+            <small
+              ><strong>Whispers of the Wielder:</strong> Once per day, you can
+              ask the blade a yes/no question aloud. It answers in your own
+              voice, but with an ominous echo. The blade is not bound to truth
+              or accuracy.</small
+            >
+          </li>
+        </ul>
+      </div>
+      <span @click="toggleDetails" class="read-more-button">
+        {{ showDetails ? "show less" : "read more" }}
+      </span>
     </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref } from "vue";
+
+const showDetails = ref(false);
+
+function toggleDetails() {
+  showDetails.value = !showDetails.value;
+}
+</script>
 
 <style scoped>
 @keyframes float {
@@ -110,14 +123,15 @@ h3 {
   font-weight: bold;
   margin: 0 0 0.5rem;
 }
-ul.traits {
-  /* font-size: small; */
-}
 ul {
   list-style: none;
 }
 li {
   margin-bottom: 0.5rem;
+}
+.read-more-button {
+  cursor: pointer;
+  text-decoration: underline;
 }
 @media screen and (max-width: 1024px) {
   .featured-banner {
