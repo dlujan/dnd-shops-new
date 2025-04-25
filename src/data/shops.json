@@ -400,9 +400,29 @@
         "name": "Light Armor",
         "items": [
           {
-            "name": "Studded Leather",
+            "name": "Padded Armor",
             "category": "Light Armor",
-            "armor_class": 12,
+            "armor_class": "11 + Dex modifier",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 8
+          },
+          {
+            "name": "Leather Armor",
+            "category": "Light Armor",
+            "armor_class": "11 + Dex modifier",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 10
+          },
+          {
+            "name": "Studded Leather Armor",
+            "category": "Light Armor",
+            "armor_class": "12 + Dex modifier",
             "cost": {
               "quantity": 45,
               "unit": "gp"
@@ -417,7 +437,7 @@
           {
             "name": "Chain Shirt",
             "category": "Medium Armor",
-            "armor_class": 13,
+            "armor_class": "13 + Dex modifier (max 2)",
             "cost": {
               "quantity": 50,
               "unit": "gp"
@@ -427,7 +447,7 @@
           {
             "name": "Scale Mail",
             "category": "Medium Armor",
-            "armor_class": 14,
+            "armor_class": "14 + Dex modifier (max 2)",
             "cost": {
               "quantity": 50,
               "unit": "gp"
@@ -437,7 +457,7 @@
           {
             "name": "Breastplate",
             "category": "Medium Armor",
-            "armor_class": 14,
+            "armor_class": "14 + Dex modifier (max 2)",
             "cost": {
               "quantity": 400,
               "unit": "gp"
@@ -445,9 +465,9 @@
             "weight": 20
           },
           {
-            "name": "Half Plate",
+            "name": "Half Plate Armor",
             "category": "Medium Armor",
-            "armor_class": 15,
+            "armor_class": "15 + Dex modifier (max 2)",
             "cost": {
               "quantity": 750,
               "unit": "gp"
@@ -480,7 +500,7 @@
             "weight": 55
           },
           {
-            "name": "Splint",
+            "name": "Splint Armor",
             "category": "Heavy Armor",
             "armor_class": 17,
             "cost": {
@@ -490,7 +510,7 @@
             "weight": 60
           },
           {
-            "name": "Plate",
+            "name": "Plate Armor",
             "category": "Heavy Armor",
             "armor_class": 18,
             "cost": {
@@ -506,13 +526,23 @@
         "items": [
           {
             "name": "Shield",
-            "category": "Shield",
+            "category": "Shields",
             "armor_class": 2,
             "cost": {
               "quantity": 10,
               "unit": "gp"
             },
             "weight": 6
+          },
+          {
+            "name": "Heavy Shield",
+            "category": "Shields",
+            "armor_class": 3,
+            "cost": {
+              "quantity": 75,
+              "unit": "gp"
+            },
+            "weight": 20
           }
         ]
       },
@@ -520,9 +550,23 @@
         "name": "Simple Melee Weapons",
         "items": [
           {
+            "name": "Club",
+            "category": "Simple Melee Weapons",
+            "damage": "1d4 Bludgeoning",
+            "properties": "Light",
+            "mastery": "Slow",
+            "cost": {
+              "quantity": 1,
+              "unit": "sp"
+            },
+            "weight": 2
+          },
+          {
             "name": "Dagger",
             "category": "Simple Melee Weapons",
-            "damage": "1d4 piercing",
+            "damage": "1d4 Piercing",
+            "properties": "Finesse, Light, Thrown (Range 20/60)",
+            "mastery": "Nick",
             "cost": {
               "quantity": 2,
               "unit": "gp"
@@ -530,9 +574,23 @@
             "weight": 1
           },
           {
+            "name": "Greatclub",
+            "category": "Simple Melee Weapons",
+            "damage": "1d8 Bludgeoning",
+            "properties": "Two-Handed",
+            "mastery": "Push",
+            "cost": {
+              "quantity": 2,
+              "unit": "sp"
+            },
+            "weight": 10
+          },
+          {
             "name": "Handaxe",
             "category": "Simple Melee Weapons",
-            "damage": "1d6 slashing",
+            "damage": "1d6 Slashing",
+            "properties": "Light, Thrown (Range 20/60)",
+            "mastery": "Vex",
             "cost": {
               "quantity": 5,
               "unit": "gp"
@@ -542,7 +600,9 @@
           {
             "name": "Javelin",
             "category": "Simple Melee Weapons",
-            "damage": "1d6 piercing",
+            "damage": "1d6 Piercing",
+            "properties": "Thrown (Range 30/120)",
+            "mastery": "Slow",
             "cost": {
               "quantity": 5,
               "unit": "sp"
@@ -552,7 +612,9 @@
           {
             "name": "Light Hammer",
             "category": "Simple Melee Weapons",
-            "damage": "1d4 bludgeoning",
+            "damage": "1d4 Bludgeoning",
+            "properties": "Light, Thrown (Range 20/60)",
+            "mastery": "Nick",
             "cost": {
               "quantity": 2,
               "unit": "gp"
@@ -562,7 +624,9 @@
           {
             "name": "Mace",
             "category": "Simple Melee Weapons",
-            "damage": "1d6 bludgeoning",
+            "damage": "1d6 Bludgeoning",
+            "properties": "",
+            "mastery": "Sap",
             "cost": {
               "quantity": 5,
               "unit": "gp"
@@ -570,9 +634,23 @@
             "weight": 4
           },
           {
+            "name": "Quarterstaff",
+            "category": "Simple Melee Weapons",
+            "damage": "1d6 Bludgeoning",
+            "properties": "Versatile (1d8)",
+            "mastery": "Topple",
+            "cost": {
+              "quantity": 2,
+              "unit": "sp"
+            },
+            "weight": 4
+          },
+          {
             "name": "Sickle",
             "category": "Simple Melee Weapons",
-            "damage": "1d4 slashing",
+            "damage": "1d4 Slashing",
+            "properties": "Light",
+            "mastery": "Nick",
             "cost": {
               "quantity": 1,
               "unit": "gp"
@@ -582,7 +660,9 @@
           {
             "name": "Spear",
             "category": "Simple Melee Weapons",
-            "damage": "1d6 piercing",
+            "damage": "1d6 Piercing",
+            "properties": "Thrown (Range 20/60), Versatile (1d8)",
+            "mastery": "Sap",
             "cost": {
               "quantity": 1,
               "unit": "gp"
@@ -597,7 +677,9 @@
           {
             "name": "Battleaxe",
             "category": "Martial Melee Weapons",
-            "damage": "1d8 slashing",
+            "damage": "1d8 Slashing",
+            "properties": "Versatile (1d10)",
+            "mastery": "Topple",
             "cost": {
               "quantity": 10,
               "unit": "gp"
@@ -607,7 +689,9 @@
           {
             "name": "Flail",
             "category": "Martial Melee Weapons",
-            "damage": "1d8 bludgeoning",
+            "damage": "1d8 Bludgeoning",
+            "properties": "",
+            "mastery": "Sap",
             "cost": {
               "quantity": 10,
               "unit": "gp"
@@ -617,7 +701,9 @@
           {
             "name": "Glaive",
             "category": "Martial Melee Weapons",
-            "damage": "1d10 slashing",
+            "damage": "1d10 Slashing",
+            "properties": "Heavy, Reach, Two-Handed",
+            "mastery": "Graze",
             "cost": {
               "quantity": 20,
               "unit": "gp"
@@ -627,7 +713,9 @@
           {
             "name": "Greataxe",
             "category": "Martial Melee Weapons",
-            "damage": "1d12 slashing",
+            "damage": "1d12 Slashing",
+            "properties": "Heavy, Two-Handed",
+            "mastery": "Cleave",
             "cost": {
               "quantity": 30,
               "unit": "gp"
@@ -637,7 +725,9 @@
           {
             "name": "Greatsword",
             "category": "Martial Melee Weapons",
-            "damage": "2d6 slashing",
+            "damage": "2d6 Slashing",
+            "properties": "Heavy, Two-Handed",
+            "mastery": "Graze",
             "cost": {
               "quantity": 50,
               "unit": "gp"
@@ -647,7 +737,9 @@
           {
             "name": "Halberd",
             "category": "Martial Melee Weapons",
-            "damage": "1d10 slashing",
+            "damage": "1d10 Slashing",
+            "properties": "Heavy, Reach, Two-Handed",
+            "mastery": "Cleave",
             "cost": {
               "quantity": 20,
               "unit": "gp"
@@ -657,7 +749,9 @@
           {
             "name": "Lance",
             "category": "Martial Melee Weapons",
-            "damage": "1d12 piercing",
+            "damage": "1d10 Piercing",
+            "properties": "Heavy, Reach, Two-Handed (unless mounted)",
+            "mastery": "Topple",
             "cost": {
               "quantity": 10,
               "unit": "gp"
@@ -667,7 +761,9 @@
           {
             "name": "Longsword",
             "category": "Martial Melee Weapons",
-            "damage": "1d8 slashing",
+            "damage": "1d8 Slashing",
+            "properties": "Versatile (1d10)",
+            "mastery": "Sap",
             "cost": {
               "quantity": 15,
               "unit": "gp"
@@ -677,7 +773,9 @@
           {
             "name": "Maul",
             "category": "Martial Melee Weapons",
-            "damage": "2d6 bludgeoning",
+            "damage": "2d6 Bludgeoning",
+            "properties": "Heavy, Two-Handed",
+            "mastery": "Topple",
             "cost": {
               "quantity": 10,
               "unit": "gp"
@@ -687,7 +785,9 @@
           {
             "name": "Morningstar",
             "category": "Martial Melee Weapons",
-            "damage": "1d8 piercing",
+            "damage": "1d8 Piercing",
+            "properties": "",
+            "mastery": "Sap",
             "cost": {
               "quantity": 15,
               "unit": "gp"
@@ -697,7 +797,9 @@
           {
             "name": "Pike",
             "category": "Martial Melee Weapons",
-            "damage": "1d10 piercing",
+            "damage": "1d10 Piercing",
+            "properties": "Heavy, Reach, Two-Handed",
+            "mastery": "Push",
             "cost": {
               "quantity": 5,
               "unit": "gp"
@@ -707,7 +809,9 @@
           {
             "name": "Rapier",
             "category": "Martial Melee Weapons",
-            "damage": "1d8 piercing",
+            "damage": "1d8 Piercing",
+            "properties": "Finesse",
+            "mastery": "Vex",
             "cost": {
               "quantity": 25,
               "unit": "gp"
@@ -717,7 +821,9 @@
           {
             "name": "Scimitar",
             "category": "Martial Melee Weapons",
-            "damage": "1d6 slashing",
+            "damage": "1d6 Slashing",
+            "properties": "Finesse, Light",
+            "mastery": "Nick",
             "cost": {
               "quantity": 25,
               "unit": "gp"
@@ -727,7 +833,9 @@
           {
             "name": "Shortsword",
             "category": "Martial Melee Weapons",
-            "damage": "1d6 piercing",
+            "damage": "1d6 Piercing",
+            "properties": "Finesse, Light",
+            "mastery": "Vex",
             "cost": {
               "quantity": 10,
               "unit": "gp"
@@ -737,7 +845,9 @@
           {
             "name": "Trident",
             "category": "Martial Melee Weapons",
-            "damage": "1d6 piercing",
+            "damage": "1d8 Piercing",
+            "properties": "Thrown (Range 20/60), Versatile (1d10)",
+            "mastery": "Topple",
             "cost": {
               "quantity": 5,
               "unit": "gp"
@@ -745,9 +855,23 @@
             "weight": 4
           },
           {
+            "name": "Warhammer",
+            "category": "Martial Melee Weapons",
+            "damage": "1d8 Bludgeoning",
+            "properties": "Versatile (1d10)",
+            "mastery": "Push",
+            "cost": {
+              "quantity": 15,
+              "unit": "gp"
+            },
+            "weight": 5
+          },
+          {
             "name": "War Pick",
             "category": "Martial Melee Weapons",
-            "damage": "1d8 piercing",
+            "damage": "1d8 Piercing",
+            "properties": "Versatile (1d10)",
+            "mastery": "Sap",
             "cost": {
               "quantity": 5,
               "unit": "gp"
@@ -755,14 +879,16 @@
             "weight": 2
           },
           {
-            "name": "Warhammer",
+            "name": "Whip",
             "category": "Martial Melee Weapons",
-            "damage": "1d8 bludgeoning",
+            "damage": "1d4 Slashing",
+            "properties": "Finesse, Reach",
+            "mastery": "Slow",
             "cost": {
-              "quantity": 15,
+              "quantity": 2,
               "unit": "gp"
             },
-            "weight": 2
+            "weight": 3
           }
         ]
       },
@@ -1008,9 +1134,19 @@
         "name": "Light Armor",
         "items": [
           {
-            "name": "Leather",
+            "name": "Padded Armor",
             "category": "Light Armor",
-            "armor_class": 11,
+            "armor_class": "11 + Dex modifier",
+            "cost": {
+              "quantity": 5,
+              "unit": "gp"
+            },
+            "weight": 8
+          },
+          {
+            "name": "Leather Armor",
+            "category": "Light Armor",
+            "armor_class": "11 + Dex modifier",
             "cost": {
               "quantity": 10,
               "unit": "gp"
@@ -1018,9 +1154,9 @@
             "weight": 10
           },
           {
-            "name": "Studded Leather",
+            "name": "Studded Leather Armor",
             "category": "Light Armor",
-            "armor_class": 12,
+            "armor_class": "12 + Dex modifier",
             "cost": {
               "quantity": 45,
               "unit": "gp"
@@ -1033,9 +1169,9 @@
         "name": "Medium Armor",
         "items": [
           {
-            "name": "Hide",
+            "name": "Hide Armor",
             "category": "Medium Armor",
-            "armor_class": 12,
+            "armor_class": "12 + Dex modifier (max 2)",
             "cost": {
               "quantity": 10,
               "unit": "gp"
@@ -1064,7 +1200,8 @@
           {
             "name": "Sling",
             "category": "Simple Ranged Weapons",
-            "damage": "1d4 bludgeoning",
+            "damage": "1d4 Bludgeoning",
+            "properties": "Ammunition (Range 30/120; Bullet)",
             "cost": {
               "quantity": 1,
               "unit": "sp"
@@ -1137,9 +1274,23 @@
         "name": "Simple Ranged Weapons",
         "items": [
           {
-            "name": "Crossbow, Light",
+            "name": "Dart",
             "category": "Simple Ranged Weapon",
-            "damage": "1d8 piercing",
+            "damage": "1d4 Piercing",
+            "properties": "Finesse, Thrown (Range 20/60)",
+            "mastery": "Vex",
+            "cost": {
+              "quantity": 5,
+              "unit": "cp"
+            },
+            "weight": 0.25
+          },
+          {
+            "name": "Light Crossbow",
+            "category": "Simple Ranged Weapon",
+            "damage": "1d8 Piercing",
+            "properties": "Ammunition (Range 80/320; Bolt), Loading, Two-Handed",
+            "mastery": "Slow",
             "cost": {
               "quantity": 25,
               "unit": "gp"
@@ -1149,7 +1300,9 @@
           {
             "name": "Shortbow",
             "category": "Simple Ranged Weapon",
-            "damage": "1d6 piercing",
+            "damage": "1d6 Piercing",
+            "properties": "Ammunition (Range 80/320; Arrow), Two-Handed",
+            "mastery": "Vex",
             "cost": {
               "quantity": 25,
               "unit": "gp"
@@ -1162,9 +1315,23 @@
         "name": "Martial Ranged Weapons",
         "items": [
           {
-            "name": "Crossbow, Hand",
+            "name": "Blowgun",
             "category": "Martial Ranged Weapon",
-            "damage": "1d6 piercing",
+            "damage": "1 Piercing",
+            "properties": "Ammunition (Range 25/100; Needle), Loading",
+            "mastery": "Vex",
+            "cost": {
+              "quantity": 10,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Hand Crossbow",
+            "category": "Martial Ranged Weapon",
+            "damage": "1d6 Piercing",
+            "properties": "Ammunition (Range 30/120; Bolt), Light, Loading",
+            "mastery": "Vex",
             "cost": {
               "quantity": 75,
               "unit": "gp"
@@ -1172,9 +1339,11 @@
             "weight": 3
           },
           {
-            "name": "Crossbow, Heavy",
+            "name": "Heavy Crossbow",
             "category": "Martial Ranged Weapon",
-            "damage": "1d10 piercing",
+            "damage": "1d10 Piercing",
+            "properties": "Ammunition (Range 100/400; Bolt), Heavy, Loading, Two-Handed",
+            "mastery": "Push",
             "cost": {
               "quantity": 50,
               "unit": "gp"
@@ -1184,12 +1353,38 @@
           {
             "name": "Longbow",
             "category": "Martial Ranged Weapon",
-            "damage": "1d8 piercing",
+            "damage": "1d8 Piercing",
+            "properties": "Ammunition (Range 150/600; Arrow), Heavy, Two-Handed",
+            "mastery": "Slow",
             "cost": {
               "quantity": 50,
               "unit": "gp"
             },
             "weight": 2
+          },
+          {
+            "name": "Musket",
+            "category": "Martial Ranged Weapon",
+            "damage": "1d12 Piercing",
+            "properties": "Ammunition (Range 40/120; Bullet), Loading, Two-Handed",
+            "mastery": "Slow",
+            "cost": {
+              "quantity": 500,
+              "unit": "gp"
+            },
+            "weight": 10
+          },
+          {
+            "name": "Pistol",
+            "category": "Martial Ranged Weapon",
+            "damage": "1d10 Piercing",
+            "properties": "Ammunition (Range 30/90; Bullet), Loading",
+            "mastery": "Vex",
+            "cost": {
+              "quantity": 250,
+              "unit": "gp"
+            },
+            "weight": 3
           }
         ]
       },
@@ -1206,13 +1401,13 @@
             "weight": 1
           },
           {
-            "name": "Crossbow Bolts (20)",
+            "name": "Bolts (20)",
             "category": "Ammunition",
             "cost": {
               "quantity": 1,
               "unit": "gp"
             },
-            "weight": 1
+            "weight": 1.5
           },
           {
             "name": "Bowstring (5)",
@@ -1223,7 +1418,34 @@
             }
           },
           {
+            "name": "Bullets, Firearm (10)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 3,
+              "unit": "gp"
+            },
+            "weight": 2
+          },
+          {
+            "name": "Bullets, Sling (20)",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 4,
+              "unit": "cp"
+            },
+            "weight": 1.5
+          },
+          {
             "name": "Case, Crossbow Bolt",
+            "category": "Adventuring Gear",
+            "cost": {
+              "quantity": 1,
+              "unit": "gp"
+            },
+            "weight": 1
+          },
+          {
+            "name": "Needles (50)",
             "category": "Adventuring Gear",
             "cost": {
               "quantity": 1,
@@ -1794,7 +2016,7 @@
           {
             "name": "Quarterstaff",
             "category": "Simple Melee Weapons",
-            "damage": "1d6 bludgeoning",
+            "damage": "1d6 Bludgeoning",
             "cost": {
               "quantity": 2,
               "unit": "sp"

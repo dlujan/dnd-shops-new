@@ -18,7 +18,7 @@
           >
             <img src="/favicon.svg" />
           </div>
-          <div class="quote-box" v-if="isShowing">{{ currentQuote }}</div>
+          <div class="quote-box" v-if="isShowing">"{{ currentQuote }}"</div>
         </div>
       </div>
       <SearchItems />
@@ -48,6 +48,11 @@ const quotes = [
   "I see all...",
   "Roll for initiative!",
   "Don't look into its eye!",
+  "Your will is weak, adventurer.",
+  "Another eye opens...",
+  "The dungeon trembles before me.",
+  "Foolish mortal, this is my lair!",
+  "You've triggered my trap card—wait, wrong game.",
 ];
 
 function showQuote() {

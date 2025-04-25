@@ -2,6 +2,10 @@
   <li class="item">
     <h3 v-if="item.name">{{ item.name }}</h3>
     <p v-if="item.category">Category: {{ item.category }}</p>
+    <p v-if="item.armor_class">AC: {{ item.armor_class }}</p>
+    <p v-if="item.damage">Damage: {{ item.damage }}</p>
+    <p v-if="item.properties">Properties: {{ item.properties }}</p>
+    <p v-if="item.mastery">Mastery: {{ item.mastery }}</p>
     <p v-if="item.cost.quantity && item.cost.unit">
       Cost: {{ item.cost.quantity }} {{ item.cost.unit }}
     </p>
