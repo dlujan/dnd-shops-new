@@ -47,6 +47,14 @@
             (1 psychic damage) if you do.</small
           >
         </li>
+        <li>
+          <small
+            ><strong>Whispers of the Wielder:</strong> Once per day, you can ask
+            the blade a yes/no question aloud. It answers in your own voice, but
+            with an ominous echo. The blade is not bound to truth or
+            accuracy.</small
+          >
+        </li>
       </ul>
     </div>
   </div>
@@ -109,7 +117,7 @@ ul {
   list-style: none;
 }
 li {
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.5rem;
 }
 @media screen and (max-width: 1024px) {
   .featured-banner {
