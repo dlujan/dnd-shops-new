@@ -45,7 +45,7 @@ const shopkeeperQuotes = {
   ],
   Blacksmith: [
     "Only the finest blades and armor here!",
-    "Need a new sword? I’ve got you covered.",
+    "Looking to protect yourself, or deal some damage?",
     "Strong as dragon’s steel!",
   ],
   Leatherworker: [
