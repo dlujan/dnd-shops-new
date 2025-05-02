@@ -8,9 +8,11 @@
 
     <div class="item-list">
       <div v-for="(item, i) in filteredItems" :key="'item-' + i" class="item">
-        <h3>{{ item.name }}</h3>
-        <p>Category: {{ item.category }}</p>
-        <p>Cost: {{ item.cost.quantity }} {{ item.cost.unit }}</p>
+        <h3 v-if="item.name">{{ item.name }}</h3>
+        <p v-if="item.category">Category: {{ item.category }}</p>
+        <p v-if="item.cost && item.cost.quantity && item.cost.unit">
+          Cost: {{ item.cost.quantity }} {{ item.cost.unit }}
+        </p>
         <p v-if="item.weight">Weight: {{ item.weight }} lbs</p>
       </div>
     </div>
@@ -51,8 +53,8 @@ const filteredItems = computed(() => {
 }
 
 .item {
-  padding-top: 10px;
-  margin-bottom: 10px;
+  padding: 10px;
+  margin-bottom: 0;
   border-bottom: 1px solid #eee;
 }
 

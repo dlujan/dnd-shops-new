@@ -19,6 +19,7 @@ export const useShopsStore = defineStore("ShopsStore", {
       temple: shops[8],
       jeweler: shops[9],
       mounts_and_vehicles: shops[10],
+      specialty_items: shops[11],
     };
   },
 

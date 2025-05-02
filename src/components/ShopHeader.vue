@@ -20,6 +20,7 @@
       <option value="/temple">Temple</option>
       <option value="/jeweler">Jeweler</option>
       <option value="/mounts-and-vehicles">Mounts and Vehicles</option>
+      <option value="/specialty-items">Specialty Items</option>
     </select>
   </div>
 </template>
@@ -92,6 +93,11 @@ const shopkeeperQuotes = {
     "Need a ride? You've come to the right place!",
     "Strong legs and sturdy wheels for hire.",
     "From horses to flying carpets, we have it all!",
+  ],
+  "Specialty Items": [
+    "Artifacts with stories no bard dares tell.",
+    "Strange. Powerful. Not for the faint of heart.",
+    "Every item here has a secret — some still whisper.",
   ],
 };
 

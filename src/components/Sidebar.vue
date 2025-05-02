@@ -42,6 +42,10 @@
       ><i className="ra ra-pawprint ra-2x"></i
       ><span>Mounts and Vehicles</span></router-link
     >
+    <router-link class="router-link" to="/specialty-items"
+      ><i className="ra ra-pawprint ra-2x"></i
+      ><span>Specialty Items</span></router-link
+    >
   </div>
 </template>
 

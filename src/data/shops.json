@@ -3722,5 +3722,67 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Specialty Items",
+    "sections": [
+      {
+        "imageAlt": "Echo blade sword with swirling mist around its blade",
+        "name": "Specialty Items",
+        "items": [
+          {
+            "image": "/images/theechoblade.png",
+            "name": "The Echoblade",
+            "category": "Specialty Items",
+            "quote": {
+              "text": "It's not the first cut that kills you. It's the one that echoes.",
+              "author": "Unknown swordsman, last recorded words"
+            },
+            "type": "Weapon (Longsword)",
+            "rarity": "Rare",
+            "requirements": "Requires Attunement by a creature that has spoken at least one lie in the last 24 hours",
+            "description": "Forged in a forgotten hall where sound never dies, the Echoblade hums faintly with whispers of the past. Every swing seems to carry a delay — not in movement, but in consequence. The sword reacts not just to the moment of impact, but to the memory of it.",
+            "abilities": [
+              {
+                "name": "Echo Strike",
+                "description": "When you hit a creature with this sword, a delayed phantom slash echoes the attack at the start of your next turn, dealing an additional 1d6 force damage to the same target (or the space they last occupied, if they moved)."
+              },
+              {
+                "name": "Truth Has No Power Here",
+                "description": "While attuned, you have advantage on Deception checks. However, you cannot speak the absolute truth three times in a row — the blade lightly shocks you (1 psychic damage) if you do."
+              },
+              {
+                "name": "Whispers of the Wielder",
+                "description": "Once per day, you can ask the blade a yes/no question aloud. It answers in your own voice, but with an ominous echo. The blade is not bound to truth or accuracy."
+              }
+            ]
+          },
+          {
+            "image": "/images/helmofhollowechoes.png",
+            "imageAlt": "Bronze metal helmet with small chimes hanging from the bottom",
+            "name": "Helm of Hollow Echoes",
+            "category": "Specialty Items",
+            "quote": {
+              "text": "Every lie leaves an echo. The helm merely knows how to listen.",
+              "author": "Scribed into the inner rim in Infernal"
+            },
+            "type": "Wondrous Item (Helmet)",
+            "rarity": "Rare",
+            "requirements": "Requires Attunement",
+            "description": "Forged from darkened bronze and lined with silent chimes that never ring, the Helm of Hollow Echoes hums faintly in the presence of deceit. It does not shout the truth — it listens, and waits.",
+            "abilities": [
+              {
+                "name": "Hollow Chime",
+                "description": "While wearing the helm, if a creature within 5 feet knowingly speaks a lie, the helm emits a soft, echoing chime only you can hear. Once this chime is triggered, it cannot occur again for 10 minutes."
+              },
+              {
+                "name": "Seek the Lie",
+                "description": "Once per long rest, you may activate the helm and focus on a specific lie you've heard — for example, 'It wasnt me!' For the next minute, the helm pulls faint auditory echoes from your surroundings, guiding you toward a location where that exact phrase (or something nearly identical) was spoken. The results and clarity are determined by the DM, and may offer atmospheric cues, emotional impressions, or vague directional guidance."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

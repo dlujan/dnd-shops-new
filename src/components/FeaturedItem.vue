@@ -2,60 +2,34 @@
   <div class="featured-banner">
     <img
       class="featured-image"
-      src="../assets/theechoblade.png"
-      alt="Featured Image"
+      :src="featured_item.image"
+      :alt="featured_item.imageAlt"
     />
     <div class="featured-content">
       <h3>✨ Featured Item ✨</h3>
-      <p class="item-name">The Echoblade</p>
+      <p class="item-name">{{ featured_item.name }}</p>
       <p>
-        <em
-          >“It’s not the first cut that kills you. It’s the one that
-          echoes.”</em
-        >
-        -Unknown swordsman, last recorded words
+        <em>"{{ featured_item.quote.text }}"</em>
+        -{{ featured_item.quote.author }}
       </p>
 
       <transition name="fade-expand">
         <div v-if="showDetails">
           <ul>
-            <li>Type: Weapon (Longsword)</li>
-            <li>Rarity: Rare</li>
+            <li>Type: {{ featured_item.type }}</li>
+            <li>Rarity: {{ featured_item.rarity }}</li>
             <li>
-              Requires Attunement by a creature that has spoken at least one lie
-              in the last 24 hours
+              {{ featured_item.requirements }}
             </li>
           </ul>
           <small>
-            Forged in a forgotten hall where sound never dies, the Echoblade
-            hums faintly with whispers of the past. Every swing seems to carry a
-            delay — not in movement, but in consequence. The sword reacts not
-            just to the moment of impact, but to the memory of it.
+            {{ featured_item.description }}
           </small>
           <ul>
-            <li>
+            <li v-for="ability in featured_item.abilities" :key="ability.name">
               <small
-                ><strong>Echo Strike:</strong> When you hit a creature with this
-                sword, a delayed phantom slash echoes the attack at the start of
-                your next turn, dealing an additional 1d6 force damage to the
-                same target (or the space they last occupied, if they
-                moved).</small
-              >
-            </li>
-            <li>
-              <small
-                ><strong>Truth Has No Power Here:</strong> While attuned, you
-                have advantage on Deception checks. However, you cannot speak
-                the absolute truth three times in a row — the blade lightly
-                shocks you (1 psychic damage) if you do.</small
-              >
-            </li>
-            <li>
-              <small
-                ><strong>Whispers of the Wielder:</strong> Once per day, you can
-                ask the blade a yes/no question aloud. It answers in your own
-                voice, but with an ominous echo. The blade is not bound to truth
-                or accuracy.</small
+                ><strong>{{ ability.name }}:</strong>
+                {{ ability.description }}</small
               >
             </li>
           </ul>
@@ -71,6 +45,9 @@
 
 <script setup>
 import { ref } from "vue";
+import { useShopsStore } from "../stores/ShopsStore";
+const { specialty_items } = useShopsStore();
+const featured_item = specialty_items.sections[0].items[1];
 
 const showDetails = ref(false);
 
