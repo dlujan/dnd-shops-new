@@ -3727,33 +3727,44 @@
     "name": "Specialty Items",
     "sections": [
       {
-        "imageAlt": "Echo blade sword with swirling mist around its blade",
-        "name": "Specialty Items",
         "items": [
           {
-            "image": "/images/theechoblade.png",
-            "name": "The Echoblade",
+            "image": "/images/lanternoffivegraces.png",
+            "imageAlt": "An ornate brass lantern containing an eternal magical flame, glowing with shifting colors",
+            "name": "Lantern of Five Graces",
             "category": "Specialty Items",
             "quote": {
-              "text": "It's not the first cut that kills you. It's the one that echoes.",
-              "author": "Unknown swordsman, last recorded words"
+              "text": "Mercy is not a light we carry — it is a light that carries us.",
+              "author": "Inscribed on the lantern's base in Celestial"
             },
-            "type": "Weapon (Longsword)",
-            "rarity": "Rare",
-            "requirements": "Requires Attunement by a creature that has spoken at least one lie in the last 24 hours",
-            "description": "Forged in a forgotten hall where sound never dies, the Echoblade hums faintly with whispers of the past. Every swing seems to carry a delay — not in movement, but in consequence. The sword reacts not just to the moment of impact, but to the memory of it.",
+            "type": "Wondrous Item (Lantern)",
+            "rarity": "Very Rare",
+            "requirements": "Requires Attunement by a creature capable of casting at least one spell that restores hit points",
+            "description": "This elegant lantern is fashioned from polished brass and veined crystal, suspended by a leather loop at the hip. Within its glass core burns a gentle, ever-changing flame that pulses with radiant hues. Each time the bearer casts a healing spell, the flame subtly shifts, and the lantern bestows a unique boon upon the healed creature. These effects rotate in a fixed sequence, making the lantern a tool not just of restoration, but of strategy, foresight, and divine rhythm.",
             "abilities": [
               {
-                "name": "Echo Strike",
-                "description": "When you hit a creature with this sword, a delayed phantom slash echoes the attack at the start of your next turn, dealing an additional 1d6 force damage to the same target (or the space they last occupied, if they moved)."
+                "name": "Rotating Boons",
+                "description": "Each time you restore hit points to a creature using a spell of 1st level or higher, the flame shifts to the next effect in its cycle. The following boon applies only to the creature that was just healed. The effects cycle in this fixed order:"
               },
               {
-                "name": "Truth Has No Power Here",
-                "description": "While attuned, you have advantage on Deception checks. However, you cannot speak the absolute truth three times in a row — the blade lightly shocks you (1 psychic damage) if you do."
+                "name": "1. Voice of the Resurgent",
+                "description": "The healed creature may immediately cast a cantrip as a reaction."
               },
               {
-                "name": "Whispers of the Wielder",
-                "description": "Once per day, you can ask the blade a yes/no question aloud. It answers in your own voice, but with an ominous echo. The blade is not bound to truth or accuracy."
+                "name": "2. Radiant Return",
+                "description": "The healed creature's next weapon attack before the end of their next turn deals an additional 1d6 radiant damage. They regain hit points equal to the radiant damage dealt, up to 6 HP."
+              },
+              {
+                "name": "3. Recall the Flame",
+                "description": "If the healed creature is a spellcaster and has expended a 1st-level spell slot, they regain one such slot."
+              },
+              {
+                "name": "4. Surge of Motion",
+                "description": "The healed creature may immediately move up to 15 feet without provoking opportunity attacks. If they end this movement adjacent to a hostile creature, they may make one weapon attack as a bonus action."
+              },
+              {
+                "name": "5. Concussive Blessing",
+                "description": "The healed creature may use an action on their next turn to release a force wave in a 15-foot cube originating from themselves. The wave deals no damage, but all creatures in the area must succeed on a Strength saving throw or be pushed 10 feet away and emit a faint glow. The next attack made against a glowing creature before the end of your next turn has advantage."
               }
             ]
           },
@@ -3778,6 +3789,33 @@
               {
                 "name": "Seek the Lie",
                 "description": "Once per long rest, you may activate the helm and focus on a specific lie you've heard — for example, 'It wasnt me!' For the next minute, the helm pulls faint auditory echoes from your surroundings, guiding you toward a location where that exact phrase (or something nearly identical) was spoken. The results and clarity are determined by the DM, and may offer atmospheric cues, emotional impressions, or vague directional guidance."
+              }
+            ]
+          },
+          {
+            "image": "/images/theechoblade.png",
+            "name": "The Echoblade",
+            "category": "Specialty Items",
+            "quote": {
+              "text": "It's not the first cut that kills you. It's the one that echoes.",
+              "author": "Unknown swordsman, last recorded words"
+            },
+            "type": "Weapon (Longsword)",
+            "rarity": "Rare",
+            "requirements": "Requires Attunement by a creature that has spoken at least one lie in the last 24 hours",
+            "description": "Forged in a forgotten hall where sound never dies, the Echoblade hums faintly with whispers of the past. Every swing seems to carry a delay — not in movement, but in consequence. The sword reacts not just to the moment of impact, but to the memory of it.",
+            "abilities": [
+              {
+                "name": "Echo Strike",
+                "description": "When you hit a creature with this sword, a delayed phantom slash echoes the attack at the start of your next turn, dealing an additional 1d6 force damage to the same target (or the space they last occupied, if they moved)."
+              },
+              {
+                "name": "Truth Has No Power Here",
+                "description": "While attuned, you have advantage on Deception checks. However, you cannot speak the absolute truth three times in a row — the blade lightly shocks you (1 psychic damage) if you do."
+              },
+              {
+                "name": "Whispers of the Wielder",
+                "description": "Once per day, you can ask the blade a yes/no question aloud. It answers in your own voice, but with an ominous echo. The blade is not bound to truth or accuracy."
               }
             ]
           }

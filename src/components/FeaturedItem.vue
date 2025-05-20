@@ -47,7 +47,7 @@
 import { ref } from "vue";
 import { useShopsStore } from "../stores/ShopsStore";
 const { specialty_items } = useShopsStore();
-const featured_item = specialty_items.sections[0].items[1];
+const featured_item = specialty_items.sections[0].items[0];
 
 const showDetails = ref(false);
 

@@ -97,7 +97,7 @@ const shopkeeperQuotes = {
   "Specialty Items": [
     "Artifacts with stories no bard dares tell.",
     "Strange. Powerful. Not for the faint of heart.",
-    "Every item here has a secret — some still whisper.",
+    "With such power comes great...gain?",
   ],
 };
 

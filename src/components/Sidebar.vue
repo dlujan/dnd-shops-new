@@ -5,8 +5,7 @@
       <span>General Store</span></router-link
     >
     <router-link class="router-link" to="/blacksmith"
-      ><i className="ra ra-large-hammer ra-2x"></i
-      ><span>Blacksmith</span></router-link
+      ><i className="ra ra-anvil ra-2x"></i><span>Blacksmith</span></router-link
     >
     <router-link class="router-link" to="/leatherworker"
       ><i className="ra ra-vest ra-2x"></i
@@ -43,7 +42,7 @@
       ><span>Mounts and Vehicles</span></router-link
     >
     <router-link class="router-link" to="/specialty-items"
-      ><i className="ra ra-pawprint ra-2x"></i
+      ><i className="ra ra-uncertainty ra-2x"></i
       ><span>Specialty Items</span></router-link
     >
   </div>
