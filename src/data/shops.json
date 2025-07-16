@@ -3729,6 +3729,33 @@
       {
         "items": [
           {
+            "image": "/images/scythe_last_shepherd.png",
+            "name": "Scythe of the Last Shepherd",
+            "category": "Weapons",
+            "quote": {
+              "text": "A shepherd of souls needs no flock - only the fallen.",
+              "author": "Veshtal, Final Harvester of the Weeping Fields"
+            },
+            "type": "Weapon (Glaive)",
+            "rarity": "Very Rare",
+            "requirements": "Requires Attunement by a creature who has personally slain a sentient being",
+            "description": "Forged in the hollow of a forgotten grave-moon, the Scythe of the Last Shepherd is a curved, obsidian-bladed weapon bound in soulsteel and wrapped in funerary linen. It is unnaturally cold, and shadows cling to it even in daylight. Upon felling a creature, the scythe may claim its very soul.",
+            "abilities": [
+              {
+                "name": "Soulbound Edge",
+                "description": "This magic weapon grants a +3 bonus to attack rolls. It deals magical slashing damage, and you may choose for the damage to be necrotic instead."
+              },
+              {
+                "name": "Soulharvest",
+                "description": "When you reduce a creature of CR 1 or higher to 0 hit points with this weapon, you may choose to harvest its soul. You can store a maximum number of souls equal to your proficiency bonus. Harvested souls remain until used."
+              },
+              {
+                "name": "Expend Soul",
+                "description": "When you hit with this weapon, you may expend one stored soul to apply one of the following effects: Deal an additional 2d6 necrotic damage. Gain temporary hit points equal to half the damage dealt. Give the target disadvantage on its next saving throw before the end of your next turn.\nYou may apply only one effect per hit."
+              }
+            ]
+          },
+          {
             "image": "/images/lanternoffivegraces.png",
             "imageAlt": "An ornate brass lantern containing an eternal magical flame, glowing with shifting colors",
             "name": "Lantern of Five Graces",
@@ -3777,7 +3804,7 @@
               "text": "Every lie leaves an echo. The helm merely knows how to listen.",
               "author": "Scribed into the inner rim in Infernal"
             },
-            "type": "Wondrous Item (Helmet)",
+            "type": "Armor (Helmet)",
             "rarity": "Rare",
             "requirements": "Requires Attunement",
             "description": "Forged from darkened bronze and lined with silent chimes that never ring, the Helm of Hollow Echoes hums faintly in the presence of deceit. It does not shout the truth — it listens, and waits.",
